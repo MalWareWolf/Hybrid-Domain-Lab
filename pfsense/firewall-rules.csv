@@ -1,0 +1,5 @@
+From VLAN,To,Service/Ports,Action,Notes
+20,10.10.10.10,53,88,135,389,445,464,636,3268-3269,5722,ALLOW,AD Core Only
+20,WAN,80,443,ALLOW,Client Egress Web
+30,Any,Any,ALLOW,Admin VLAN
+20,10.10.10.0/24,Any,DENY,Block all else to Servers

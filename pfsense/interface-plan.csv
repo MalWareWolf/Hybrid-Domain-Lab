@@ -1,0 +1,5 @@
+Interface,VLAN,Subnet,Gateway,Notes
+LAN,10,10.10.10.0/24,10.10.10.1,Servers
+OPT1,20,10.10.20.0/24,10.10.20.1,Clients
+OPT2,30,10.10.30.0/24,10.10.30.1,Management
+OPT3,40,10.10.40.0/24,10.10.40.1,DMZ(Optional)
